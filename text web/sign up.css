@@ -1,0 +1,12 @@
+.sike{
+    background-color:bisque;
+    background-image: url(good.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
