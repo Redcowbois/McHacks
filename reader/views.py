@@ -3,5 +3,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 def view(request):
-    return render(request, 'main.html')
+    return render(request, 'login.html')
 
