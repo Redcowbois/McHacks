@@ -1,0 +1,13 @@
+.schedule{
+    background-color:bisque;
+    background-image: url(home-office-desk-table-background-empty-wall-with-wooden-table-with-stationery-books-work-study-high-quality-photo_90380-2674.webp);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    background-position: center center;
+
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
