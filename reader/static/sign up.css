@@ -1,39 +1,27 @@
 
     
 .sike{
-    background-color:bisque;
-    background-image: url(stusy\ new.webp);
+    background-color: #829de7;
+    background-image: url(sign\ up\ kid.jpg);
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-
-    padding-top: 230px;
-    padding-bottom: 200px;
+    background-attachment: fixed;
+    padding-right: 30%;
+    font-size: xx-large;
 }
 
 .idk2{
     color: darkblue;
     font-size: xx-large;
+    padding-top: 20%;
+    
 }
 
-.logo3{
-    width: 250;
-    height: 75;
-    left: 20%;
-    top: 27%;
-    position: absolute;
-}
 
-.logo2{
-    position: absolute;
-    width: 250;
-    height: 75;
-    top: 27%;
-    left:65%;
-
-}
 
 #top{
     width: 90%;
@@ -59,7 +47,7 @@
     width:4em;
     height:4em;
     position: absolute;
-    right:3%;
+    right:30%;
     top:5%;
     z-index:5;
     opacity:0.3;
@@ -74,7 +62,7 @@
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1px 16px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -108,7 +96,7 @@
 
 .h-100{
     top:40%;
-    left:40%;
+    left:23%;
     position: absolute;
     font-size: 1.5em;
     width:15em;
