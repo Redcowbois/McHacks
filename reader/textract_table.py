@@ -143,4 +143,4 @@ def main(file_name):
 
 if __name__ == "__main__":
     file_name = "85010-pg4.pdf"
-    main("./reader/chris/image.png")
+    main("./reader/image.png")
