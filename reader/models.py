@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.contrib import admin
 # Create your models here.
 
 
@@ -25,3 +25,12 @@ class Course(models.Model): #Class for each different course
 
     def __str__(self): 
         return str(self.course)
+
+class ScheduleImage(models.Model):
+   image = models.ImageField(null = True, blank = True, upload_to = "images/") 
+
+admin.site.register(User)
+admin.site.register(Friend)
+admin.site.register(Day)
+admin.site.register(Course)
+admin.site.register(ScheduleImage)

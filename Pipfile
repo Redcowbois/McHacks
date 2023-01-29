@@ -8,7 +8,7 @@ django = "*"
 pdf2image = "*"
 pandas = "*"
 boto3 = "*"
-
+pillow = "*"
 
 [dev-packages]
 
