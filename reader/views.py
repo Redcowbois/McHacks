@@ -13,4 +13,19 @@ def register(response):
 def view(request):
     return render(request, 'login.html')
 
+def login(request):
+    return render(request, 'login.html')
+
+def register(request):
+    return render(request, 'sign up.html')
+
+def main(request):
+    return render(request, 'main.html')
+
+def table(request):
+    return render(request, 'table.html')
+
+def upload(request):
+    return render(request, 'schedule.html')
+
 

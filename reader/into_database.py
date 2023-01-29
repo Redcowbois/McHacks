@@ -1,3 +1,5 @@
+import main.asgi
+main.asgi.get_asgi_application()
 from schedule_maker import *
 import textract_table
 from models import User, Day, Course

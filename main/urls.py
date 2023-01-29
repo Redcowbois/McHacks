@@ -21,5 +21,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('register/', v.register, name="register"),
     path('reader/', include('reader.urls'))
-    #path('',include('reader.urls')),
 ]
