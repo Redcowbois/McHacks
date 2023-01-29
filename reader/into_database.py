@@ -1,8 +1,12 @@
-import main.asgi
-main.asgi.get_asgi_application()
+import os
+import django
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
+django.setup()
+
 from schedule_maker import *
 import textract_table
 from models import User, Day, Course
+
 
 schedule = schedule_maker('output3.csv')
 
