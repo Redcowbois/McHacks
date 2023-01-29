@@ -1,0 +1,10 @@
+{% blcok title %}
+View
+{% endblock %}
+
+{% block content %}
+    {% for User in user.User.all %}
+        <p><a href="/{{User.id}}">{{User.name}}</a></p>
+    {% endfor %}
+{% endblock %}
+

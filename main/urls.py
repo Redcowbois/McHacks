@@ -20,6 +20,8 @@ from reader import views as v
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('register/', v.register, name="register"),
-    path('reader/', include('reader.urls'))
+    path('reader/', include('reader.urls')),
+    path('', include("django.contrib.auth.urls")),
+    path('view/', v.view, name="view"),
     #path('',include('reader.urls')),
 ]

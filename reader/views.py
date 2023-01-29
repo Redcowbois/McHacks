@@ -14,12 +14,18 @@ def register(response):
         form = RegisterForm(response.POST)
         if form.is_valid():
             form.save()
+            response.user.User.add(form)
         
         return redirect("/home")
+    
     else:
         form = RegisterForm()
 
     return render(response, "register.html", {"form":form})
+
+def view(response):
+    return render(response, 'view.html',{})
+
 
 def view(request):
     return render(request, 'login.html')
