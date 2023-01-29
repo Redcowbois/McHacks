@@ -2,22 +2,26 @@
     
 .sike{
     background-color:bisque;
-    background-image: url(Screenshot\ 2023-01-28\ 202424.png);
+    background-image: url(stusy\ new.webp);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
 
-    padding-top: 250px;
+    padding-top: 230px;
     padding-bottom: 200px;
 }
 
+.idk2{
+    color: darkblue;
+    font-size: xx-large;
+}
 
 .logo3{
     width: 250;
     height: 75;
-    left: 27%;
+    left: 20%;
     top: 27%;
     position: absolute;
 }
@@ -27,7 +31,7 @@
     width: 250;
     height: 75;
     top: 27%;
-    left:57%;
+    left:65%;
 
 }
 
