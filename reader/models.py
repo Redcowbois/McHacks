@@ -9,8 +9,12 @@ class User(models.Model): #Class for the user
     def __str__(self): 
         return str(self.name)
 
-class Day(models.Model): 
+class Friend(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+    friend_name = models.CharField(max_length=200)
+
+class Day(models.Model): 
+    user = models.ForeignKey(Friend, on_delete=models.CASCADE)
     day = models.CharField(max_length=200)
     
 class Course(models.Model): #Class for each different course 
