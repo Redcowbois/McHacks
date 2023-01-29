@@ -11,3 +11,4 @@ def get_grayscale(image):
 image = get_grayscale(image)
 
 print(pytesseract.image_to_string(image, lang = 'eng'))
+
